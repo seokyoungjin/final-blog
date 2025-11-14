@@ -6,12 +6,11 @@ import { axiosInstance } from "../../../api/axios";
 
 const categories = [
   "",
-  "Technology",
-  "Lifestyle",
-  "Travel",
-  "Business",
-  "Economy",
-  "Sports",
+  "Troubleshooting", // 문제해결과정
+  "Insights", // 생각정리,회고,느낀점
+  "Learning Log", //나의 성장 기록
+  "Resources", // 팁,도구,효율화
+  "NextSteps", // 앞으로의목표
 ];
 
 type FormStateType = {
